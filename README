@@ -1,0 +1,15 @@
+Copyright 2014 - Team-OctOS(Octo-Kat)
+~~Dubbsy~~
+A team that truly believes in open source and community... A rarity these days.
+
+Device configuration for the US Cellular Samsung Galaxy S4 Mini.
+
+This configuration is for both OctOS and other ROMs.  I left the necessary files in place so it will work for the majority of Cyanogenmod based ROMs with just a change of name to vendorsetup.sh, oct.mk, and oct.dependences to the name the ROM you are trying to build.  Team Gummy is tg.mk.  Cyanogenmod is cm.mk.  So on and so forth.  Team-OctOS actually has no use for these files specifically.  We use our own vendor files instead and we don't build using lunch.
+ __________                 ___          __________     __________ 
+/   ____   \               |   |        /   ____   \   /   _______\
+|   |  |   |            ___|   |___     |   |  |   |   |  /
+|   |  |   |    _____  |           |    |   |  |   |   |  \_______
+|   |  |   |   /  ___\ |___     ___|    |   |  |   |    \______   \
+|   |  |   |  |  |         |   |        |   |  |   |           \  |
+|   ----   |  |  |____     |   |        |   ----   |     ______/  |
+\__________/   \_____/     |___|        \__________/    /_________/

@@ -1,0 +1,31 @@
+[
+  {
+    "repository": "platform_device_qcom_common",
+    "target_path": "device/qcom/common"
+  },
+  {
+    "repository": "platform_device_samsung_qcom-common",
+    "target_path": "device/samsung/qcom-common"
+  },
+  {
+    "repository": "platform_device_samsung_msm8930-common",
+    "target_path": "device/samsung/msm8930-common"
+  },
+  {
+    "repository": "platform_device_samsung_serrano-common",
+    "target_path": "device/samsung/serrano-common"
+  },
+  {
+    "repository": "platform_kernel_samsung_msm8930-common",
+    "target_path": "kernel/samsung/msm8930-common"
+  },
+  {
+    "repository": "platform_hardware_samsung",
+    "target_path": "hardware/samsung"
+  },
+  {
+    "repository": "platform_hardware_qcom_fm",
+    "target_path": "hardware/qcom/fm"
+  }
+]
+###note "platform" needs to be "android" to work on Cyanogenmod based ROMs

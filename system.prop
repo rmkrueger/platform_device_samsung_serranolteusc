@@ -1,0 +1,35 @@
+# system.prop for serranolteusc
+#
+
+rild.libpath=/system/lib/libril-qc-qmi-1.so
+rild.libargs=-d /dev/smd0
+
+# Retry Timer (USCC, MetroPCS)
+ro.gsm.data_retry_config=max_retries=infinite,0,0,60000,120000,480000,900000
+
+# Default Data Roaming (USCC, LRA)
+ro.com.android.dataroaming=true
+
+# Default Network Mode (For 4G model / Non global modem)
+ro.telephony.default_network=8
+# Default Operator (USCC)
+ro.cdma.home.operator.numeric=311220
+ro.cdma.home.operator.alpha=U.S. Cellular
+ro.cdma.default_numeric=311220
+ro.cdma.default_alpha=U.S.Cellular
+telephony.lteOnCdmaDevice=1
+
+# Set default cdma subscription to RUIM in database
+ril.subscription.types=NV,RUIM
+ro.telephony.default_cdma_sub=0
+
+# Enough ril props to choke a horse
+persist.radio.use_se_table_only=1
+DEVICE_PROVISIONED=1
+ro.gps.set_privacy=1
+dalvik.vm.dexopt-data-only=1
+telephony.sms.pseudo_multipart=1
+persist.radio.no_wait_for_card=1
+persist.radio.snapshot_enabled=1
+persist.radio.snapshot_timer=22
+persist.eons.enabled=false
